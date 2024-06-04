@@ -19,6 +19,9 @@ return new class extends Migration
             // $table->text('description')->nullable();
             $table->foreignId('activity_id')->constrained();
             $table->foreignId('slot_id')->constrained();
+
+            //Immagine
+            $table->string('image')->nullable();
             
 
             //da inserire in modals $table->timestamps();

@@ -52,6 +52,7 @@ const Course = () => {
         <Container>
           <div className="text-center">
             <h2>{course.title}</h2>
+            {course.image && <img src={course.image} alt={course.title} />}
             <p className="mt-4">{course.description}</p>
             <h4>{course.slot.day}</h4>
             <p>

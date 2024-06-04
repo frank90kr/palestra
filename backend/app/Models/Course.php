@@ -17,6 +17,7 @@ class Course extends Model
         'activity_id',
         'slot_id',
         'status',
+        'image',
     ];
 
     public function activity()

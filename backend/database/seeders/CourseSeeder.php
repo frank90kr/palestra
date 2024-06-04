@@ -16,6 +16,7 @@ class CourseSeeder extends Seeder
         Course::create([
             'title' => 'Corso di Yoga',
             'location' => 'Sala Yoga',
+            'image' => '/storage/corsi/yoga.jpg',
             'activity_id' => 1,
             'slot_id' => 1,
             'description' => 'Lo yoga è un complesso ed immenso corpus teorico-pratico che comprende una filosofia, una cosmogonia, una raffinata psicologia, una mistica, uno studio dettagliato degli stati di coscienza insieme ai mezzi e alle condizioni per realizzarli, un processo spirituale evolutivo',
@@ -25,6 +26,7 @@ class CourseSeeder extends Seeder
         Course::create([
             'title' => 'Corso di Pilates',
             'location' => 'Sala Pilates',
+            'image' => '/storage/corsi/pilates.jpg',
             'activity_id' => 2,
             'slot_id' => 2,
             'description' => 'Il Pilates è una disciplina che combina allenamento fisico ad un metodo di respirazione che ha come obiettivo quello di sollecitare la cintura addominale. Si tratta soprattutto di movimenti lenti e ripetuti per assumere consapevolezza del proprio corpo e allenarlo alla forma fisica',
