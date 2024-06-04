@@ -5,6 +5,9 @@ import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { LOGOUT } from "../redux/actions";
 import { FaUser } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 const TopNav = () => {
   const dispatch = useDispatch();
@@ -27,9 +30,13 @@ const TopNav = () => {
     <>
       <Navbar bg="dark" data-bs-theme="dark" className="text-white" expand="lg">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <FaFacebookF className="me-1" />
+          <FaInstagram className="me-1" />
+          <FaXTwitter />
+          <Navbar.Brand className="ms-5" as={Link} to="/">
             THE POWER HOUSE GYM
           </Navbar.Brand>
+
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

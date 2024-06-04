@@ -28,6 +28,7 @@ const Home = () => {
       </div>
 
       <h1 className="mt-2 text-center">Corsi disponibili</h1>
+
       <div className="row mt-3 justify-content-center">
         <div className="col-md-10">
           <ListGroup className="" variant="dark">
